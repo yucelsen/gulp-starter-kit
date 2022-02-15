@@ -60,12 +60,12 @@ E.g File Structure
 gulp generate --type component --name search-box --js
 ```
 
-####--type Parameters
-- components: generate a components file in ./resources/assets/components folder
-- page: generate a page template in ./resources/assets/pug folder
-- js: generate a .js file template in ./resources/assets/js folder
-####--js Parameters
-This parameter is boolean. When generating components, it also generating .js file
+#### type Parameters
+- **components**: generate a components file in ./resources/assets/components folder
+- **page**: generate a page template in ./resources/assets/pug folder
+- **js**: generate a .js file template in ./resources/assets/js folder
+#### js Parameters
+This parameter is optionally. When generating components, it also generating .js file
 
 ## Virtual Host
 If you are using a virtual server in your projects, change the url key so that browsersync can be used.
