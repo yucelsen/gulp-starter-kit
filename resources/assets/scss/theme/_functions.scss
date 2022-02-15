@@ -1,0 +1,42 @@
+@function strip-units($number) {
+	@if type-of($number) == 'number' and not unitless($number) {
+		@return $number / ($number * 0 + 1);
+	}
+
+	@return $number;
+}
+
+@function rem($pxval) {
+	@if not unitless($pxval) {
+		$pxval: strip-units($pxval);
+	}
+
+	$base: 16;
+	@if not unitless($base) {
+		$base: strip-units($base);
+	}
+	@return ($pxval / $base) * 1rem;
+}
+
+@function em($pixels, $context: 16px) {
+	@return ($pixels/$context) * 1em;
+}
+
+@mixin getFonts($name, $sizes) {
+	$fontpath: "#{$font-path}#{$name}/";
+
+	@each $size in $sizes {
+		@font-face {
+			font-family: '#{$name}-#{$size}';
+			src: url('#{$fontpath}#{$name}-#{$size}.woff2') format('woff2'),
+			url('#{$fontpath}#{$name}-#{$size}.woff') format('woff');
+			font-weight: 400;
+			font-style: normal;
+			font-stretch: normal;
+		}
+
+		.ff-#{$name}-#{$size} {
+			font-family: '#{$name}-#{$size}';
+		}
+	}
+}

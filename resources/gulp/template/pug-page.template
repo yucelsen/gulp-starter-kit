@@ -1,0 +1,8 @@
+extends inc/_layout
+
+block variables
+    - const body_class = '<%= name %>-body';
+
+block content
+    section.site-content.<%= name %>-content
+

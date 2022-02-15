@@ -1,0 +1,8 @@
+let <%= name %>JS;
+<%= name %>JS = function () {
+
+    this.run = function () {
+    };
+
+};
+const __<%= name %>JS = new <%= name %>JS();

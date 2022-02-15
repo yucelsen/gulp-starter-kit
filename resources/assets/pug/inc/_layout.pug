@@ -1,0 +1,26 @@
+include _mixin
+
+block variables
+
+doctype html
+html(lang="tr")
+    head
+        meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1')
+        title Gulp Starter Kit
+        meta(name='description' content='A starter kit for web development based on bootstrap 5 with Gulp JS, Sass and Pug.')
+
+        link(rel='icon' href=path+'icons/favicon.ico' sizes='any')
+        link(rel='icon' href=path+'icons/icon.svg' type='image/svg+xml')
+        link(rel='apple-touch-icon' href='icon.png')
+        link(rel='manifest' href='manifest.json')
+
+        link(rel='stylesheet' href=path+'css/main.css')
+    body(class=(body_class))
+        include _header
+        block content
+        include _footer
+
+        script(src=path + "js/main.js")
+        script(src=path + "js/app.js")
+        block footerScript

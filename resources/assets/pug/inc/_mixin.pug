@@ -1,0 +1,11 @@
+- var path  = './assets/'
+
+mixin photo(size, customClass, customStyle, width, height)
+    - const number = Math.floor(Math.random() * (50))
+    img(src="https://picsum.photos/id/" + number + "/" + size + "" class=customClass style=customStyle width=width height=height)
+
+mixin fakeImg(size, customClass, customStyle, width, height)
+    img(src="https://fakeimg.pl/" + size + "" class=customClass style=customStyle width=width height=height)
+
+mixin img(name, customClass, customStyle, width, height)
+    img(src=path + "images/" + name + "" class=customClass, style=customStyle width=width height=height)

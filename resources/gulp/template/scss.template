@@ -1,0 +1,11 @@
+.<%= name %> {
+    // your block
+
+    &__element {
+        // your element
+
+        &--modifier {
+            // your element modifier
+        }
+    }
+}

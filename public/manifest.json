@@ -1,0 +1,15 @@
+{
+    "short_name": "Gulp",
+    "name": "Gulp Starter Kit",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/assets/icons/icon.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#CF4647",
+    "theme_color": "#CF4647"
+}

@@ -1,0 +1,51 @@
+/* ===== Helper */
+$img-path: '../images/';
+$font-path: '../fonts/';
+$i: !important;
+
+/* ===== Sizes */
+$box-group-padding: 100px;
+$header-height: (
+        xs: 65px,
+        md: 80px,
+        lg: 100px,
+        xl: 110px,
+        xxl: 110px,
+);
+$rotates: (
+        '0': 0,
+        '45': 45deg,
+        '90': 90deg,
+        '135': 135deg,
+        '180': 180deg,
+        '225': 225deg,
+        '270': 270deg,
+);
+
+/* ===== Fonts */
+$ff-name: 'avenir';
+$ff-sizes: xlight, light, regular, medium, bold, xbold;
+$ff: (
+        xl: $ff-name + '-xlight',
+        l: $ff-name + '-light',
+        r: $ff-name + '-regular',
+        m: $ff-name + '-medium',
+        b: $ff-name + '-bold',
+        xb: $ff-name + '-xbold'
+);
+
+/* ===== Colors */
+// your custom colors
+
+/* ===== Social Media Colors */
+$social-media-colors: (
+        facebook: #3b5999,
+        facebook-messenger: #0084ff,
+        twitter: #55acee,
+        instagram: #e4405f,
+        whatsapp: #25D366,
+        linkedin: #0077B5,
+        gmail: #c71610,
+        youtube: #cd201f,
+        sms: #80e27e,
+) !default;

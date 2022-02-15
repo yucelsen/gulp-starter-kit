@@ -1,0 +1,18 @@
+# Global
+.idea/
+.idea
+/.vscode
+/.vagrant
+/public/hot
+/public/storage
+/public/uploads
+/storage/*.key
+/vendor
+/node_modules
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log

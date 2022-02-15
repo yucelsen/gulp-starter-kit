@@ -1,0 +1,11 @@
+extends inc/_layout
+
+block variables
+    - const body_class = 'bg-light';
+
+block content
+    .px-4.py-5.my-5.text-center
+        +img('../icons/icon.svg', 'rounded-pill mb-4', null, 64)
+        h1.display-5 Gulp Starter Kit
+        .col-lg-6.mx-auto
+            p.lead.mb-4 A starter kit for web development based on bootstrap 5 with Gulp JS, Sass and Pug.

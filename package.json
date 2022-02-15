@@ -1,0 +1,64 @@
+{
+  "name": "gulp-starter-kit",
+  "version": "1.0.0",
+  "description": "A starter kit for web development based on bootstrap 5 with Gulp JS, Sass and Pug.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "init": "gulp pug && gulp scss && gulp main.js && gulp app.js && gulp minify.img && gulp icon.svg && gulp fontface.woff",
+    "serve": "gulp serve",
+    "optimize": "gulp minify.css && gulp minify.js && gulp minify.img",
+    "bundle": "gulp clean-bundle && gulp bundle.css && gulp bundle.js"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "bootstrap 5",
+    "gulp",
+    "scss",
+    "pug",
+    "template",
+    "starter",
+    "boilerplate"
+  ],
+  "author": {
+    "name": "Hakan Yücelşen",
+    "url": "https://github.com/yucelsen"
+  },
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/hakanyucelsen/gulp-starter",
+  "devDependencies": {
+    "async": "^3.2.1",
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-iconfont": "^11.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-purgecss": "^4.1.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-template": "^5.0.0",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^3.0.0",
+    "node-sass": "^7.0.1",
+    "yargs": "^17.3.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}

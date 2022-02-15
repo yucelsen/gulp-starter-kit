@@ -1,0 +1,53 @@
+
+/* ===== Font Awesome */
+$fa-font-path: "../fonts/font-awesome" !default;
+$fa-font-size-base: 16px !default;
+$fa-font-display: auto !default;
+$fa-css-prefix: fa !default;
+$fa-version: "5.11.2" !default;
+$fa-border-color: #eee !default;
+$fa-inverse: #fff !default;
+$fa-li-width: 2em !default;
+$fa-fw-width: (20em / 16);
+$fa-primary-opacity: 1 !default;
+$fa-secondary-opacity: .4 !default;
+
+/* ===== Hamburger Menu */
+$hamburger-padding-x: 0 !default;
+$hamburger-padding-y: 0 !default;
+$hamburger-layer-width: 30px !default;
+$hamburger-layer-height: 3px !default;
+$hamburger-layer-spacing: 6px !default;
+$hamburger-layer-color: $primary !default;
+$hamburger-layer-border-radius: 10px !default;
+$hamburger-hover-opacity: 1 !default;
+$hamburger-active-layer-color: $hamburger-layer-color !default;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity !default;
+
+/* ===== Slick JS */
+$slick-font-path: "../fonts/slick/" !default;
+$slick-font-family: "slick" !default;
+$slick-loader-path: "../images/" !default;
+$slick-arrow-color: white !default;
+$slick-dot-color: black !default;
+$slick-dot-color-active: $slick-dot-color !default;
+$slick-prev-character: "\2190" !default;
+$slick-next-character: "\2192" !default;
+$slick-dot-character: "\2022" !default;
+$slick-dot-size: 6px !default;
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.25 !default;
+
+/* ===== Plyr JS */
+$plyr-color-main: rgba($primary, 0.8);
+$plyr-control-icon-size: 24px !default;
+$plyr-control-spacing: 10px !default;
+$plyr-control-padding: ($plyr-control-spacing * 0.4) !default;
+$plyr-control-radius: 3px !default;
+
+/* ===== Scroll Me */
+$scroll-me-width: 42px;
+$scroll-me-height: 64px;
+$scroll-me-border: 2px;
+$scroll-me-color: $primary;
